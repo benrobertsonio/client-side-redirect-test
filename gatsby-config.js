@@ -3,5 +3,5 @@ module.exports = {
         siteUrl: 'https://www.yourdomain.tld',
         title: 'redirect-in-browser',
     },
-    plugins: ['gatsby-plugin-gatsby-cloud'],
+    plugins: ['gatsby-plugin-gatsby-cloud', `gatsby-plugin-client-side-redirect`],
 }
